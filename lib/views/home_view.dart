@@ -3,15 +3,10 @@ import 'dart:ui';
 
 import 'package:admob_flutter/admob_flutter.dart';
 import 'package:app_tracking_transparency/app_tracking_transparency.dart';
-import 'package:auto_size_text/auto_size_text.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:intl/intl.dart';
-import 'package:tripbudget/models/trip.dart';
 import 'package:tripbudget/services/admob_services.dart';
-import 'package:tripbudget/views/detail_trip_view.dart';
-//import 'package:tripbudget/widgets/calculator_widget.dart';
 import 'package:tripbudget/widgets/provider_widget.dart';
 import 'package:tripbudget/widgets/trip_card.dart';
 
@@ -22,7 +17,7 @@ class HomeView extends StatefulWidget {
 }
 
 class _HomeViewState extends State<HomeView> {
-  Future _nextTrip;
+  //Future _nextTrip;
   final primaryColor = Color.fromRGBO(22, 189, 242, 1.0);
   final adms = AdmobService();
   String _authStatus = 'Unknown';

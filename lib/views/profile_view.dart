@@ -1,8 +1,6 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:tripbudget/models/user.dart';
-import 'package:tripbudget/services/auth_service.dart';
 import 'package:tripbudget/widgets/provider_widget.dart';
 
 class ProfileView extends StatefulWidget {
@@ -41,7 +39,7 @@ class _ProfileViewState extends State<ProfileView> {
     final authData = snapshot.data;
     return Column(
       children: [
-        Text('$authData'),
+        //Text('$authData'),
         //adminFeature(),
         Padding(
           padding: const EdgeInsets.only(top: 10.0, bottom: 20.0),

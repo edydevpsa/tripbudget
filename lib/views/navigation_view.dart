@@ -1,12 +1,12 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:tripbudget/models/trip.dart';
-import 'package:tripbudget/services/auth_service.dart';
+//import 'package:tripbudget/services/auth_service.dart';
 import 'package:tripbudget/views/home_view.dart';
 import 'package:tripbudget/views/pastTrips_view.dart';
 import 'package:tripbudget/views/new_trips/location_view.dart';
 import 'package:tripbudget/views/profile_view.dart';
-import 'package:tripbudget/widgets/provider_widget.dart';
+//import 'package:tripbudget/widgets/provider_widget.dart';
 
 //final _primarycolor = Color.fromRGBO(55, 57, 84, 1.0);
 class Home extends StatefulWidget {

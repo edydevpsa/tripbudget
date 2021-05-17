@@ -20,11 +20,11 @@ class AdmobService{
   // here admob Banner Ad units
   String getBannerAdId(){
     if (Platform.isIOS) {
-      //return 'ca-app-pub-9326348509831610/7282830080'; //correcto
-      return 'ca-app-pub-3940256099942544/2934735716';
+      return 'ca-app-pub-9326348509831610/7282830080';
+      //return 'ca-app-pub-3940256099942544/2934735716'; //--->de prueba
     }else if (Platform.isAndroid) {
-      //return 'ca-app-pub-9326348509831610/5422953503'; //correcto
-      return 'ca-app-pub-3940256099942544/6300978111';
+      return 'ca-app-pub-9326348509831610/5422953503';
+      //return 'ca-app-pub-3940256099942544/6300978111'; //--->de prueba
     }else{
       return null;
     }
@@ -32,9 +32,9 @@ class AdmobService{
 
   String getInterstitialAdId(){
     if (Platform.isIOS) {
-      return 'ca-app-pub-3940256099942544/4411468910';
+      return 'ca-app-pub-3940256099942544/4411468910'; //--->de prueba
     }else if (Platform.isAndroid) {
-      return 'ca-app-pub-3940256099942544/1033173712';
+      return 'ca-app-pub-3940256099942544/1033173712'; //--->de prueba
     }else{
       return null;
     }

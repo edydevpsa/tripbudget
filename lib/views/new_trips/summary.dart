@@ -40,9 +40,11 @@ class _SummaryState extends State<Summary> {
   //interstitial ad units
   String getInterstitialAdId(){
     if (Platform.isIOS) {
-      return 'ca-app-pub-3940256099942544/4411468910';
+      //return 'ca-app-pub-3940256099942544/4411468910';//--->de prueba
+      return 'ca-app-pub-9326348509831610/6133399946';
     }else if (Platform.isAndroid) {
-      return 'ca-app-pub-3940256099942544/1033173712';
+      //return 'ca-app-pub-3940256099942544/1033173712';//--->de prueba
+      return 'ca-app-pub-9326348509831610/3655302617';
     }else{
       return null;
     }

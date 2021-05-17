@@ -42,3 +42,4 @@ app.*.map.json
 *google-services.json
 *GoogleService-info.plist
 *lib/credentials.dart
+*admob_services.dart

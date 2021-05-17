@@ -7,11 +7,11 @@ class AdmobService{
   // here admob IDs  
   String getAdmobAppId(){ 
     if (Platform.isIOS) {
-      //return 'ca-app-pub-9326348509831610~3535156765'; //correcto
-      return 'ca-app-pub-3940256099942544~1458002511';
+      return 'ca-app-pub-9326348509831610~3535156765';
+      //return 'ca-app-pub-3940256099942544~1458002511'; //--->de prueba
     }else if(Platform.isAndroid){
-      //return 'ca-app-pub-9326348509831610~5652401255'; //correcto
-      return 'ca-app-pub-3940256099942544~3347511713';
+      return 'ca-app-pub-9326348509831610~5652401255';
+      //return 'ca-app-pub-3940256099942544~3347511713'; //--->de prueba
     }else{
       return null;
     }

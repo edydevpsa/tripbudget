@@ -71,7 +71,7 @@
             android:value="ca-app-pub-3940256099942544~3347511713" />  DE PRUEBA-->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-9326348509831610~9334278354" /> 
+            android:value="ca-app-pub-9326348509831610~5652401255" /> 
     </application>
     <uses-permission android:name="android.permission.INTERNET" android:maxSdkVersion="29" />
     <!--permission INTERNET for facebbok -->
